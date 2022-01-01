@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "779876488242",
+    "project_id": "online12piece",
+    "storage_bucket": "online12piece.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779876488242:android:d41de39e088f6a0914582b",
+        "android_client_info": {
+          "package_name": "com.example.online12piece_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779876488242-7lgdgia6uijt286l904gtk4hnnkjjpco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDerPKx4VNih43hJVjVTjDawfOk-i7SuQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779876488242-7lgdgia6uijt286l904gtk4hnnkjjpco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

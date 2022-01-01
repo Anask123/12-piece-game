@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regtheme"
+    tools:context=".about">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="8"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:text="12 GOTTI GAME"
+        android:textColor="@color/red"
+        android:textSize="44dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="396dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="8"
+        android:shadowDy="8"
+        android:shadowRadius="8"
+        android:text="About/Help "
+        android:textColor="@color/purple_200"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="361dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="128dp"
+        android:gravity="center"
+        android:shadowColor="#070000"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:text="RULES: This game is played between 2 person. Each having 12 Goti(Bead). These bead can move one step forward on the valid positions of the cort. If a player can cross a goti of the other side then the player will achieve 1 point. In this way whoever manages to achieve 12 points will be the winner. "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="326dp"
+        android:layout_height="269dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:text='Bara Guti ( 12 Goti / Bead 12 ) is a traditional and one of the famous game played in South- East Asian region especially in Some Indian regions and Bangladesh.  This 12 Goti game is known by different names in different countries. In Punjab it is " Bara Tehni". It is a checker type game like Chess where two player are required to play the game. '
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/revert"
+        android:layout_width="54dp"
+        android:layout_height="47dp"
+        android:background="@drawable/border_rounded"
+        android:onClick="bbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

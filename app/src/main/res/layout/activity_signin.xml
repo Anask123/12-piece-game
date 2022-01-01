@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regtheme"
+    tools:context=".Signin">
+
+    <TextView
+        android:id="@+id/sutextview"
+        android:layout_width="137dp"
+        android:layout_height="60dp"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        android:textStyle="italic"
+        />
+
+    <EditText
+        android:id="@+id/enteremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#B59F9F"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="#B5A0A0"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sutextview" />
+
+    <EditText
+        android:id="@+id/enterpass"
+        android:layout_width="240dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#B59F9F"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="#B5A0A0"
+        app:layout_constraintBottom_toTopOf="@+id/sibutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enteremail"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/sibutton"
+        android:layout_width="93dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/border_rounded"
+        android:backgroundTint="@color/red"
+        android:text="Signin"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/yet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/yet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="not registered yet?"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/sunow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sunow"
+        android:layout_width="115dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="216dp"
+        android:background="@drawable/border_rounded"
+        android:backgroundTint="@color/red"
+        android:text="signup now"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

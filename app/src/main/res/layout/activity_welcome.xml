@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regtheme"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".Welcome">
+
+    <Button
+        android:id="@+id/BTNplay"
+        android:layout_width="122dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="139dp"
+        android:background="@drawable/border_rounded"
+        android:backgroundTint="@color/red"
+        android:gravity="center"
+        android:onClick="play"
+        android:text="Play"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        tools:targetApi="p" />
+
+    <Button
+        android:id="@+id/btnthemes"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/BTNplay"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/border_rounded"
+        android:backgroundTint="@color/red"
+        android:onClick="theme"
+        android:text="themes"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BTNabout"
+        android:layout_width="132dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/btnthemes"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/border_rounded"
+        android:backgroundTint="@color/red"
+        android:onClick="about"
+        android:text="ABOUT"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BTNEXIT"
+        android:layout_width="115dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/connect"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="138dp"
+        android:background="@drawable/border_rounded"
+        android:backgroundTint="@color/red"
+        android:onClick="exit"
+        android:text="EXIT"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="81dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/goti3d" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="146dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/BTNabout"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="121dp"
+        android:background="@drawable/border_rounded"
+        android:backgroundTint="@color/red"
+        android:text="CONNECT"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="362dp"
+        android:layout_height="204dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/border_rounded"
+        android:fontFamily="@font/bangers"
+        android:gravity="center|right|top|left"
+        android:text="12 piece game"
+        android:textColor="#FF5722"
+        android:textSize="70sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
